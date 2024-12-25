@@ -13,16 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+title: "Just the Docs"
+description: "A Jekyll theme for documentation"
+baseurl: "" # 프로젝트 사이트일 경우 "/lovelyarebs-lovelyarebs.github.io" 사용
+url: "https://lovelyarebs.github.io"
+repository: lovelyarebs/lovelyarebs-lovelyarebs.github.io
+
 theme: "just-the-docs"
-
-title: Just the Docs
-description: A Jekyll theme for documentation
-baseurl: "" # 또는 "/lovelyarebs-lovelyarebs.github.io" 사용
-
-
-url: "https://just-the-docs.com" # the base hostname & protocol for your site, e.g. http://example.com
-repository: just-the-docs/just-the-docs # for github-metadata
-
 permalink: pretty
 
 defaults:
